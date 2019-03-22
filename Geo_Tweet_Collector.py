@@ -66,9 +66,9 @@ class StdOutListener(StreamListener):
         except BaseException as e:
             print("Error on_data: %s" % str(e))
 
-        print(XY[1])
-        print(XY[0])
-        print(text)
+        # print(XY[1])
+        # print(XY[0])
+        # print(text)
         # curr.execute("""INSERT INTO tweets (UserID, Tweet_Date, Lat, Lng, Text) VALUES
         # (%s, %s, %s, %s, %s);""",(status.id_str,status.created_at,XY[1],XY[0],text))
         # db.commit()
